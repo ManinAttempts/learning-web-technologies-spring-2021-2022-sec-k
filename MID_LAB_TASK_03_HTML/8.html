@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<style>
+
+table{
+  border-collapse: collapse;
+  font-family:Arial, Helvetica, sans-serif
+}
+table, th, td {
+  border: 1px solid black;
+}
+td{
+  height: 40px;
+}
+
+</style>
+<body>
+  <table>
+    <tr>
+      <td colspan="3"><h1 style="text-align: center;">PERSON PROFILE</h1></td>
+    </tr>
+    <tr>
+      <td style="width: 20%;">Name</td>
+      <td>
+        <input type="text"/>
+      </td>
+      <td style="width: 30px"></td>
+    </tr>
+
+    <tr>
+      <td>Email</td>
+      <td>
+        <input type="text"/>
+      </td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>Gender</td>
+      <td>
+        <input type="radio" value="Male" name="gender">
+        <label for="Male">Male</label>
+        <input type="radio" value="Female" name="gender">
+        <label for="Female">Female</label>
+        <input type="radio" value="Other" name="gender">
+        <label for="Other">Other</label>
+      </td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>Date of Birth</td>
+      <td>
+        <input style="width: 15%;" type="text" /> /
+        <input style="width: 15%;" type="text" /> /
+        <input style="width: 15%;" type="text" /> 
+      </td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>Blood Group</td>
+      <td>
+        <select>
+          <option>A+</option>
+          <option>B+</option>
+          <option>O+</option>
+          <option>A-</option>
+          <option>B-</option>
+          <option>O-</option>
+        </select>
+      </td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>Degree</td>
+      <td>
+        <input type="checkbox" />
+        <label>SSC</label>
+        <input type="checkbox" />
+        <label>HSC</label>
+        <input type="checkbox" />
+        <label>BSc</label>
+      </td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td>Photo</td>
+      <td>
+        <button>Browse...</button><span style="font-size: smaller;">No file selected</span>
+      </td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td colspan="3"><br></td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        <div style="float: right;">
+          <button>Submit</button>
+          <button>Reset</button>
+        </div>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
